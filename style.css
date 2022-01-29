@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+}
+header{
+  height: 770px;
+  background-image: url('image/home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 230px 0 230px;
+}
+.header_logo{
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+#header{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.topnav a{
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Montserrat";
+  margin-left: 30px;
+}
+.title{
+  font-size: 48px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 255px;
+}
+.title_text{
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 35px;
+}
+#button{
+  text-align: center;
+  margin-top: 55px;
+}
+button{
+  width: 175px;
+  height: 45px;
+  border: 2px solid #ffffff;
+  background-color:transparent;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  cursor:pointer;
+}
+button:hover{
+  color: #000;
+  border-color:#000;
+}
+.about_title{
+  font-size: 20px;
+  line-height: 24px;
+  color: #555555;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 30px;
+}
+hr{
+  width: 50px;
+  background-color: #000;
+}
+.about_text{
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  font-family: "Roboto Slab";
+  text-align: center;
+  margin: 30px 0 70px 0;
+}
+.about{
+  margin-top: 60px;
+}
+.about_colum{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 -15px;
+  flex: 0 0 33.333%;
+
+}
+.item_about{
+  display: block;
+  padding: 0 15px;
+}
+.item_about_icon{
+  width: 90px;
+  height: 90px;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  background-color: #c0301c;
+  text-align: center;
+  margin: 0 auto;
+  line-height:85px;
+  color:#ffffff;
+  font-size: 60px;
+}
+.item_about_title{
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 30px 0 25px 0;
+}
+.item_about_text{
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  text-align: center;
+}
+.about_us{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -40px;
+  flex: 0 0 50%;
+}
+.our_image{
+display: flex;
+justify-content: space-evenly;
+}
+.me_image{
+  width: 260px;
+  height: 250px;
+  border: none;
+  background-position: top;
+
+}
+#image_one{
+  background-image: url(image/Md.\ Khalil\ Uddin.png);
+}
+#image_two{
+  background-image: url(image/Rubel\ Miah.png);
+}
+#image_three{
+  background-image: url(image/Shamim\ Mia.png);
+}
+#image_four{
+  background-image: url(image/John\ Doe.png);
+}
