@@ -140,22 +140,47 @@ hr{
 display: flex;
 justify-content: space-evenly;
 }
+.image_nic{
+  display: block;
+}
 .me_image{
   width: 260px;
   height: 250px;
   border: none;
   background-position: top;
-
+  margin-top: 73px;
 }
+
 #image_one{
   background-image: url(image/Md.\ Khalil\ Uddin.png);
+  margin-right: 30px;
 }
+
 #image_two{
   background-image: url(image/Rubel\ Miah.png);
+  margin-right: 30px;
 }
 #image_three{
   background-image: url(image/Shamim\ Mia.png);
+  margin-right: 30px;
 }
 #image_four{
   background-image: url(image/John\ Doe.png);
+}
+.nic{
+  font-size: 17px;
+  line-height: 24px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 20px 0 17px 0;
+}
+.post{
+  font-size: 13px;
+  line-height: 24px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  text-align: center;
 }
