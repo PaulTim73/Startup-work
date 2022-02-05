@@ -167,6 +167,15 @@ justify-content: space-evenly;
 #image_four{
   background-image: url(image/John\ Doe.png);
 }
+.icon{
+ 
+text-align: center;
+ 
+}
+#facebook,#twitter,#google,#instagram{
+  display: inline;
+
+}
 .nic{
   font-size: 17px;
   line-height: 24px;
@@ -183,4 +192,12 @@ justify-content: space-evenly;
   font-weight: 400;
   font-family: "Roboto Slab";
   text-align: center;
+}
+.work a{
+  text-decoration: none;
+  color: #555555;
+  margin-left: 30px;
+}
+.work a:hover{
+  color: #c0301c;
 }
