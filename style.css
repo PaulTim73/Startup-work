@@ -201,3 +201,45 @@ text-align: center;
 .work a:hover{
   color: #c0301c;
 }
+table{
+  border-collapse: separate;
+}
+
+td[id^="foto"]{
+  width: 360px;
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+#foto_one{
+  background-image: url(./image/hair\ dryer.png);
+  
+} 
+#foto_two{
+  background-image: url(./image/bird.png);
+}
+#foto_three{
+  background-image: url(./image/notebook.png);
+}
+#foto_four{
+  background-image: url(./image/camera.png);
+}
+#foto_five{
+  background-image: url(./image/bike.png);
+}
+#foto_six{
+  background-image: url(./image/drawing\ block.png);
+}
+#foto_seven{
+  background-image: url(./image/glasses.png);
+}
+#foto_eight{
+  background-image: url(./image/pencils.png);
+}
+#foto_nine{
+  background-image: url(./image/notes.png);
+}
