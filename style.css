@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url(./fonts/icomoon/icomoon.eot) format('embedded-opentype'),
+  url(./fonts/icomoon/icomoon.woff) format('woff'),
+   url(./fonts/icomoon/icomoon.ttf) format('truetype'),
+   url(./fonts/icomoon/icomoon.svg) format('svg');
+}
 body{
   margin: 0;
 }
@@ -113,6 +120,14 @@ hr{
   color:#ffffff;
   font-size: 60px;
 }
+#icon_two{
+  background-color: #ffffff;
+  
+}
+#icomoon-ignore svg{
+  fill:#c0301c;
+  vertical-align: middle;
+}
 .item_about_title{
   font-size: 14px;
   line-height: 24px;
@@ -133,8 +148,7 @@ hr{
 .about_us{
   display: flex;
   justify-content: space-between;
-  margin: 0 -40px;
-  flex: 0 0 50%;
+ 
 }
 .our_image{
 display: flex;
@@ -202,22 +216,20 @@ text-align: center;
   color: #c0301c;
 }
 table{
-  border-collapse: separate;
+  border-spacing: 30px;
+	border-collapse: separate;
 }
 
 td[id^="foto"]{
   width: 360px;
-  height: 320px;
+  height: 360px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
-
 
 #foto_one{
   background-image: url(./image/hair\ dryer.png);
-  
 } 
 #foto_two{
   background-image: url(./image/bird.png);
@@ -242,4 +254,13 @@ td[id^="foto"]{
 }
 #foto_nine{
   background-image: url(./image/notes.png);
+}
+.get_touch{
+  width: 100%;
+  height: 370px;
+  background-image: url(./image/table.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+  background-size: cover;
+  
 }
