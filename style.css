@@ -62,9 +62,9 @@ header{
 button{
   width: 175px;
   height: 45px;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   background-color:transparent;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffffff;
   text-align: center;
@@ -255,12 +255,46 @@ td[id^="foto"]{
 #foto_nine{
   background-image: url(./image/notes.png);
 }
-.get_touch{
-  width: 100%;
+.container_row{
+  max-width: 100%;
   height: 370px;
-  background-image: url(./image/table.png);
+  background-image: url(./image/talk.png);
   background-repeat: no-repeat;
-  background-position: 90%;
+  background-position:100%;
   background-size: cover;
   
 }
+.container_row_text{
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.blog{
+  display: block;
+}
+.blog_one{
+  display: inline-block;
+
+}
+.blog_title{
+  display: ;
+}
+.blog_title_title{
+  
+}
+.blog_text{
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+}
+
+
