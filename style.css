@@ -116,9 +116,9 @@ hr{
   background-color: #c0301c;
   text-align: center;
   margin: 0 auto;
-  line-height:85px;
+  line-height:90px;
   color:#ffffff;
-  font-size: 60px;
+  font-size: 0;
 }
 #icon_two{
   background-color: #ffffff;
@@ -256,12 +256,13 @@ td[id^="foto"]{
   background-image: url(./image/notes.png);
 }
 .container_row{
-  max-width: 100%;
+  width: 100%;
   height: 370px;
   background-image: url(./image/talk.png);
   background-repeat: no-repeat;
   background-position:100%;
   background-size: cover;
+  display: table;
   
 }
 .container_row_text{
@@ -270,24 +271,71 @@ td[id^="foto"]{
   color: #ffffff;
   font-weight: 400;
   font-family: "Roboto Slab";
-  display: block;
+  display: table-cell;
   position: relative;
   text-align: center;
-  margin-top: 50px;
-  
+  vertical-align: middle;
 }
 .blog{
   display: block;
+  margin-bottom: 100px;
 }
-.blog_one{
-  display: inline-block;
+.blog_container{
+  display: flex;
+}
+.blog_container > img{
+  width: 430px;
+  height: 325px;
+  margin-right: 40px;
+}
+
+.blog_colum{
+  display: block;
+}
+.blog_button{
+  border: none;
+  color:#777777;
+}
+.blog_button:hover{
+  color:#c0301c;
+}
+
+.blog_title{
+ display: flex;
+}
+.blog_date{
+  width: 65px;
+  height: 65px;
+  border: 2px solid #777777;
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
 
 }
-.blog_title{
-  display: ;
+.blog_title_subhead{
+  display: block;
+  margin-left: 27px;
 }
 .blog_title_title{
-  
+  font-size: 16px;
+  line-height: 24px;
+  color: #c0301c;
+  font-weight: 400;
+  font-family: "Montserrat";
+ 
+}
+.blog_subhead{
+  font-size: 13px;
+  line-height: 24px;
+  color: #777777;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  font-style: italic; 
+}
+.blog_subhead > span{
+  color:#c0301c;
 }
 .blog_text{
   font-size: 14px;
@@ -296,5 +344,25 @@ td[id^="foto"]{
   font-weight: 400;
   font-family: "Roboto Slab";
 }
+.line::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+  background-color: #777777;
+  margin: 40px auto 40px;
+}
+.logo_clients{
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.logo_title{
+  text-align: center;
+}
+.logo_title > img{
+  padding: 60px;
+  vertical-align: middle;
+}
+
 
 
