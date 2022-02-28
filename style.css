@@ -363,6 +363,28 @@ td[id^="foto"]{
   padding: 60px;
   vertical-align: middle;
 }
+.logo_text, .nic{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #555555;
+  text-align: center;
+  font-style: italic;
+  
+}
+.nic{
+  font-style: normal;
+  padding-bottom: 150px;
+}
+ul > li:nth-child(1){
+  list-style: url(./image/contacts/fa-map-marker.svg);
+}
+ul > li:nth-child(2){
+  list-style: url(./image/contacts/fa-mobile-phone.svg);
+}
+ul > li:nth-child(3){
+  list-style: url(./image/contacts/fa-envelope-o.svg);
+}
 
 
 
